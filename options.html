@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        #ow_content {
+          height:500px;;
+          width: 100%;
+          outline: none;
+        }
+		#refresh{
+		  font-size:large;
+		}
+		#clear{
+		  float:right;
+		  font-size:small;
+		}
+      </style>
+    </head>
+    <body>
+	<div>
+      <textarea id="ow_content"></textarea>
+	  </div>
+	  <div>
+	  <button id="refresh">refresh</button>
+	  <button id="clear">clear</button>
+	  
+	  
+	  <span id="lastupdatetime"></span>
+	  </div>
+	  <div>
+	  <ol>
+	  <li>Input "ow" in the omnibox,then tab. Then writing in it, it will be saved and displayed here. </li>
+	  <li>Plese save your writings to other safer place ASAP.</li>
+	  <li>The text will be lost when: uninstall the extension, click the "clear" button , clear your browser's history data.</li>
+	
+	  </ol>
+	  </div>
+	  <script src="options.js"></script>
+    </body>
+  </html>
