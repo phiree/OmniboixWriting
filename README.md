@@ -1,4 +1,4 @@
-# OmniboixWriting
+# OmniboxWriting
 - input "ow" in your omnibox
 - click "tab"
 - then write in omnibox.
