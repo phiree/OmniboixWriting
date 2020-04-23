@@ -1,6 +1,6 @@
 {
   "name": "OmniboxWriting",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Writing in omnibox.",
   "manifest_version": 2,
   "permissions": ["storage" ],
